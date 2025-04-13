@@ -11,15 +11,17 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item header__menu-item_active">
-            <a class="header__menu-link" href="#0">главная</a>
+          <li class="header__menu-item_without_bullet">
+            <a class="header__menu-link header__menu-link_active" href="#0"
+              >главная</a
+            >
           </li>
-          <li class="header__menu-item">
+          <li>
             <a class="header__menu-link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__menu-item">
+          <li>
             <a class="header__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
@@ -31,7 +33,7 @@
           alt="логотип проекта с текстом оно тебе надо"
         />
       </a>
-      <address class="header__address">
+      <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
@@ -41,9 +43,9 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligment_left">ОНО</span>
-          <span class="aligment_center">ТЕБЕ</span>
-          <span class="aligment_right">НАДО</span>
+          <span class="aligment_left">оно</span>
+          <span class="aligment_center">тебе</span>
+          <span class="aligment_right">надо</span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -115,8 +117,8 @@
             alt="логотип проекта на черном фоне с текстом оно тебе надо"
           />
         </div>
-        <div class="about__content">
-          <h3 class="about__title">Об аукционе</h3>
+        <article class="about__content">
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -132,11 +134,11 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
+      <address class="address footer__address">
         <a href="tel:+77778889900">+9 999 555 5555</a>
         <a href="mailto:article@auth.or">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
